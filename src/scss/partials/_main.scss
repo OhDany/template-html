@@ -1,0 +1,30 @@
+.main {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+  .primary {
+    display: flex;
+    justify-content: space-around;
+
+    .p-one {
+      flex: 1 0 38%;
+      margin: 10px;
+    }
+    .p-two {
+      flex: 1 0 38%;
+      margin: 10px;
+      img {
+        width: 420px;
+      }
+    }
+    .p-three {
+      margin: 10px;
+      flex: 1 0 20%;
+
+      .note {
+        border: 1px solid #dddddd;
+        padding: 0 1em;
+        margin-bottom: 1em;
+      }
+    }
+  }
+}

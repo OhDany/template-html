@@ -1,0 +1,19 @@
+.nav {
+  border-bottom: 1px solid #ddd;
+  ul {
+    padding-left: 0;
+    display: flex;
+    // justify-content: space-around;
+    list-style: none;
+    li {
+      border-right: 1px solid #ddd;
+      padding: 0 20px;
+      a {
+          color: #000;
+          text-decoration: none;
+          text-transform: uppercase;
+          font-weight: bold;
+      }
+    }
+  }
+}

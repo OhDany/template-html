@@ -1,0 +1,21 @@
+.booton {
+  flex-shrink: 7;
+}
+
+button.orange {
+    margin-right: 10px;
+    font-weight: bold;
+    background-color: #ff9800;
+    color: #fff;
+    border: 2px solid #ff9800;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+button.black {
+  font-weight: bold;  
+  border: 2px solid #ff9800;
+  padding: 1rem;
+  border-radius: 5px;
+  color: #ff9800;
+}
