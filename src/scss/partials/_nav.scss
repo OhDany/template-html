@@ -1,18 +1,21 @@
 .nav {
-  border-bottom: 1px solid #ddd;
+  border-bottom: 2px solid #ddd;
+  background: $primary;
   ul {
-    padding-left: 0;
+    padding: 7px 0;
     display: flex;
+    margin: 0;
     // justify-content: space-around;
     list-style: none;
     li {
       border-right: 1px solid #ddd;
       padding: 0 20px;
       a {
-          color: #000;
+          font-size: 13px;
+          color: $white;
           text-decoration: none;
           text-transform: uppercase;
-          font-weight: bold;
+          font-weight: 500;
       }
     }
   }

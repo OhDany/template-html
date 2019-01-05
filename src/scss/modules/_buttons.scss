@@ -5,17 +5,17 @@
 button.orange {
     margin-right: 10px;
     font-weight: bold;
-    background-color: #ff9800;
+    background-color: $secondary;
     color: #fff;
-    border: 2px solid #ff9800;
+    border: 2px solid $secondary;
     padding: 1rem;
     border-radius: 5px;
 }
 
 button.black {
   font-weight: bold;  
-  border: 2px solid #ff9800;
+  border: 2px solid $secondary;
   padding: 1rem;
   border-radius: 5px;
-  color: #ff9800;
+  color: $secondary;
 }
