@@ -4,14 +4,14 @@
   .nav-news {
     display: flex;
     padding: 7px 7px;;
-    margin-top: 1em;
+    // margin-top: 1em;
     background: $secondary;
 
     .is-news {
       p {
         margin: 0;
         font-family: Arial, Helvetica, sans-serif;
-        color: $white;
+        color: $black;
         font-weight: 900;
       }
     }
@@ -27,7 +27,7 @@
 
         a {
           font-size: 14px;
-          color: $white;
+          color: $black;
           text-decoration: none;
           font-weight: 500;
         }
@@ -223,6 +223,24 @@
           color: $white;
           border-top: 0.3em solid $white;
         }
+
+        .n-videos {
+          display: flex;
+
+          .big-video {
+            flex: 1 0 70%;
+            margin-right: 1em;
+
+            p {
+              color: $white;
+              margin: 0;
+            }
+          }
+
+          .small-video {
+            flex: 1 0 20%;
+          }
+        }
       }
 
       h2 {
@@ -245,24 +263,30 @@
         }
 
         .n-news {
-          flex: 1 0 38%;
+          flex: 1 0 48%;
           margin: 0 10px;
         }
 
         .n-image {
-          flex: 1 0 38%;
+          flex: 1 0 48%;
           margin-right: 10px;
           img {
-            width: 380px;
+            width: 420px;
           }
         }
+      }
 
-        .o-news {
-          flex: 1 0 15%;
-          margin: 0 10px;
+      .o-news {
+        display: flex;
 
-          h5 {
+        .note {
+          flex: 1 0 30%; 
+          margin-right: 2em;
+          margin-bottom: 2em;
+
+          h4 {
             color: $black;
+            margin: 0.4em 0;
           }
         }
       }
@@ -309,6 +333,56 @@
 
         img {
           width: 170px;
+        }
+      }
+    }
+  }
+
+  .galeria {
+    background: $primary;
+    padding: 1em;
+    margin: 2em 0;
+
+    h2 {
+      display: inline-block;
+        color: $white;
+        font-size: 2em;
+        margin: 0 0 .3em 0;
+        border-top: 0.3em solid $white;
+    }
+
+    .galerias {
+      display: flex;
+
+      .image {
+        flex: 1 0 20%;
+        margin-right: 1em;
+
+        img {
+          width: 255px;
+        }
+      }
+    }
+  }
+
+  .cartoons {
+
+    h2 {
+      display: inline-block;
+      color: $black;
+      font-size: 2em;
+      margin: 0 0 .3em 0;
+      border-top: 0.3em solid $primary;
+    }
+
+    .d-cartoons {
+      display: flex;
+
+      .cartton {
+        flex: 1 0 20%;
+
+        img {
+          width: 240px;
         }
       }
     }
