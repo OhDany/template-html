@@ -1,21 +1,38 @@
-.booton {
+.subscribe {
   flex-shrink: 7;
-}
 
-button.orange {
+  button.orange {
+    font-family: 'Oswald', sans-serif;
     margin-right: 10px;
-    font-weight: bold;
     background-color: $secondary;
+    font-weight: bold;
     color: #fff;
     border: 2px solid $secondary;
-    padding: 1rem;
+    padding: 5px;
     border-radius: 5px;
-}
+    cursor: pointer;
+    transition: .25s all ease;
 
-button.black {
-  font-weight: bold;  
-  border: 2px solid $secondary;
-  padding: 1rem;
-  border-radius: 5px;
-  color: $secondary;
+    &:hover {
+      background: $primary1;
+      border: 2px solid $primary1;
+    }
+  }
+
+  button.black {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;  
+    border: 2px solid $secondary;
+    padding: 5px;
+    border-radius: 5px;
+    color: $secondary;
+    cursor: pointer;
+    transition: .25s all ease;
+
+    &:hover {
+      background: $primary1;
+      border: 2px solid $primary1;
+      color: $white;
+    }
+  }
 }
