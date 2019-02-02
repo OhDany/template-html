@@ -17,7 +17,7 @@ html {
 
 body {
   font: 300 14px/1.6 'Helvetica Neue', Helvetica, Arial;
-  color: #444;
+  color: #333;
   transition: all .4s .3s ease-in; }
 
 .container {
@@ -25,8 +25,9 @@ body {
   margin: 0 auto; }
 
 span.section {
-  color: #FF9800;
-  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  color: #FF6D00;
+  font-family: 'Roboto', sans-serif;
   font-size: .9em; }
 
 span.date {
@@ -34,7 +35,7 @@ span.date {
   font-size: .9em; }
 
 span.author {
-  color: #FF9800;
+  color: #FF6D00;
   font-family: Arial, Helvetica, sans-serif;
   font-size: .9em; }
 
@@ -473,7 +474,8 @@ textarea {
     display: none; } }
 
 nav.navigation {
-  background: #008FEA; }
+  background: #0081C5;
+  border-bottom: 2px solid #ddd; }
   nav.navigation .nav-bar {
     display: -ms-flexbox;
     display: flex;
@@ -523,7 +525,7 @@ nav.navigation {
 
 nav.mobil {
   position: fixed;
-  background: #1374b9;
+  background: #10689b;
   width: 300px;
   height: 100vh;
   display: none; }
@@ -549,16 +551,16 @@ nav.mobil {
 
 .main {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  padding-top: 128px; }
+  padding-top: 132px; }
   .main .nav-news {
     display: -ms-flexbox;
     display: flex;
     padding: 8px 1em;
-    background: #999; }
+    background: #07132d; }
     .main .nav-news .is-news p {
       margin: 0;
       font-family: Arial, Helvetica, sans-serif;
-      color: #000000;
+      color: #FF6D00;
       font-weight: 900; }
     .main .nav-news ul {
       display: -ms-flexbox;
@@ -569,9 +571,11 @@ nav.mobil {
         list-style: none; }
         .main .nav-news ul li a {
           font-size: 14px;
-          color: #000000;
+          color: #999;
           text-decoration: none;
           font-weight: 500; }
+          .main .nav-news ul li a:hover {
+            text-decoration: underline; }
   .main section {
     padding: 0 1em; }
   .main .primary {
@@ -616,7 +620,7 @@ nav.mobil {
       display: inline-block;
       color: #000000;
       margin: 0 0 .4em 0;
-      border-top: 0.3em solid #008FEA; }
+      border-top: 0.3em solid #0081C5; }
     .main .secondary .p-one {
       -ms-flex: 1 0 50%;
           flex: 1 0 50%;
@@ -635,8 +639,7 @@ nav.mobil {
               flex: 1 0 65%;
           margin: 0 0 30px 10px; }
           .main .secondary .p-one .news .news-content h2 {
-            font-size: 1.3em;
-            font-weight: 500;
+            font-size: 1.2em;
             color: #000000;
             margin: 0;
             line-height: 1.3; }
@@ -650,7 +653,7 @@ nav.mobil {
         border-bottom: 1px dotted #000; }
         .main .secondary .p-two .tending span.section {
           font-size: 12px;
-          color: #0678be; }
+          color: #008FEA; }
         .main .secondary .p-two .tending h5 {
           line-height: 1.4;
           font-size: 12px;
@@ -672,7 +675,7 @@ nav.mobil {
       color: #000000;
       font-size: 2em;
       margin: 0 0 .3em 0;
-      border-top: 0.3em solid #008FEA; }
+      border-top: 0.3em solid #0081C5; }
     .main .third .section-four {
       display: -ms-flexbox;
       display: flex; }
@@ -685,7 +688,6 @@ nav.mobil {
         .main .third .section-four .p-one .news .news-img img {
           width: 233px; }
       .main .third .section-four .news-content h3 {
-        font-weight: normal;
         line-height: 1.3;
         margin: 0;
         color: #000000; }
@@ -699,12 +701,12 @@ nav.mobil {
           flex: 1 0 79%;
       margin-right: 10px; }
       .main .sections .sectionss .videos {
-        background: #008FEA;
+        background: #0081C5;
         padding: 1em;
         margin: 0 0 2em 0; }
         .main .sections .sectionss .videos h2 {
           color: #FFFFFF;
-          border-top: 0.3em solid #FFFFFF; }
+          border-top: 0.3em solid #07132d; }
         .main .sections .sectionss .videos .n-videos {
           display: -ms-flexbox;
           display: flex; }
@@ -726,12 +728,11 @@ nav.mobil {
         color: #000000;
         font-size: 2em;
         margin: 0 0 .3em 0;
-        border-top: 0.3em solid #008FEA; }
+        border-top: 0.3em solid #0081C5; }
       .main .sections .sectionss .p-one {
         display: -ms-flexbox;
         display: flex; }
         .main .sections .sectionss .p-one h3 {
-          font-weight: normal;
           font-size: 1.9em;
           color: #000000;
           margin: 0;
@@ -768,7 +769,7 @@ nav.mobil {
         color: #000000;
         font-size: 1.4em;
         margin: 0 0 .3em 0;
-        border-top: 0.3em solid #008FEA; }
+        border-top: 0.3em solid #0081C5; }
       .main .sections .entretenmient .e-news {
         margin-bottom: 0.5em;
         padding-bottom: 0.5em;
@@ -782,7 +783,7 @@ nav.mobil {
         margin: 0; }
       .main .sections .entretenmient h5 {
         margin: 0;
-        color: #0678be; }
+        color: #008FEA; }
       .main .sections .entretenmient p {
         font-family: 'Roboto', sans-serif;
         font-weight: 500;
@@ -794,7 +795,7 @@ nav.mobil {
         .main .sections .entretenmient .e-img img {
           width: 183px; }
   .main .galeria {
-    background: #008FEA;
+    background: #0081C5;
     padding: 1em;
     margin: 2em 0; }
     .main .galeria h2 {
@@ -802,7 +803,7 @@ nav.mobil {
       color: #FFFFFF;
       font-size: 2em;
       margin: 0 0 .3em 0;
-      border-top: 0.3em solid #FFFFFF; }
+      border-top: 0.3em solid #07132d; }
     .main .galeria .galerias {
       display: -ms-flexbox;
       display: flex; }
@@ -819,7 +820,7 @@ nav.mobil {
     color: #000000;
     font-size: 2em;
     margin: 0 0 .3em 0;
-    border-top: 0.3em solid #008FEA; }
+    border-top: 0.3em solid #0081C5; }
   .main .cartoons .d-cartoons {
     display: -ms-flexbox;
     display: flex; }
@@ -1045,7 +1046,7 @@ nav.mobil {
       margin: 0; }
     .main .sections .entretenmient .e-news h5 {
       margin: 0;
-      color: #0678be; }
+      color: #008FEA; }
     .main .sections .entretenmient .e-news p {
       font-size: 14px;
       line-height: 1.4; }
@@ -1062,7 +1063,7 @@ nav.mobil {
         width: 328px; } }
 
 .footer {
-  background: #008FEA;
+  background: #0081C5;
   margin-top: 2em;
   /*---- Genral classes end -------*/
   /*Change icons size here*/
@@ -1083,14 +1084,15 @@ nav.mobil {
       -ms-flex: 1 0 50%;
           flex: 1 0 50%; }
       .footer .first .logo img {
-        width: 400px; }
+        width: 350px; }
     .footer .first .adress {
       -ms-flex: 1 0 10%;
           flex: 1 0 10%; }
       .footer .first .adress p {
-        font-family: sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
         margin: 0;
-        color: #FFFFFF; }
+        color: #001534; }
   .footer ul.menu-footer {
     display: -ms-flexbox;
     display: flex;
@@ -1099,21 +1101,23 @@ nav.mobil {
     padding: 0; }
     .footer ul.menu-footer li {
       list-style: none;
-      border-right: 2px solid #FFFFFF;
+      border-right: 2px solid #001534;
       padding: 0 2.2em; }
       .footer ul.menu-footer li:last-child {
         border-right: none; }
       .footer ul.menu-footer li a {
-        font-family: sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
         text-decoration: none;
-        color: #FFFFFF; }
+        color: #001534; }
         .footer ul.menu-footer li a:hover {
           text-decoration: underline; }
   .footer .right p {
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
     text-align: center;
     margin: 0;
-    color: #FFFFFF; }
+    color: #001534; }
   .footer .wrapper, .footer .copyright {
     padding: 20px;
     text-align: center; }
@@ -1246,29 +1250,29 @@ nav.mobil {
   .subscribe button.orange {
     font-family: 'Oswald', sans-serif;
     margin-right: 10px;
-    background-color: #FF9800;
+    background-color: #FF6D00;
     font-weight: bold;
     color: #fff;
-    border: 2px solid #FF9800;
+    border: 2px solid #FF6D00;
     padding: 5px;
     border-radius: 5px;
     cursor: pointer;
     transition: .25s all ease; }
     .subscribe button.orange:hover {
-      background: #008FEA;
-      border: 2px solid #008FEA; }
+      background: #0081C5;
+      border: 2px solid #0081C5; }
   .subscribe button.black {
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
-    border: 2px solid #FF9800;
+    border: 2px solid #FF6D00;
     padding: 5px;
     border-radius: 5px;
-    color: #FF9800;
+    color: #FF6D00;
     cursor: pointer;
     transition: .25s all ease; }
     .subscribe button.black:hover {
-      background: #008FEA;
-      border: 2px solid #008FEA;
+      background: #0081C5;
+      border: 2px solid #0081C5;
       color: #FFFFFF; }
 
 @font-face {
@@ -1304,7 +1308,7 @@ nav.mobil {
   nav.navigation ul {
     display: none;
     position: static;
-    background: #008FEA; } }
+    background: #0081C5; } }
 
 @media print {
   * {

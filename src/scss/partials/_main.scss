@@ -1,18 +1,18 @@
 .main {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  padding-top: 128px;
+  padding-top: 132px;
   
   .nav-news {
     display: flex;
     padding: 8px 1em;
     // margin-top: 1em;
-    background: #999;
+    background: #07132d;
 
     .is-news {
       p {
         margin: 0;
         font-family: Arial, Helvetica, sans-serif;
-        color: $black;
+        color: $secondary;
         font-weight: 900;
       }
     }
@@ -28,9 +28,13 @@
 
         a {
           font-size: 14px;
-          color: $black;
+          color: #999;
           text-decoration: none;
           font-weight: 500;
+
+          &:hover {
+            text-decoration: underline;
+          }
         }
       }
     }
@@ -116,8 +120,8 @@
           margin: 0 0 30px 10px;
 
           h2 {
-            font-size: 1.3em;
-            font-weight: 500;
+            font-size: 1.2em;
+            // font-weight: 500;
             color: $black;
             margin: 0;
             line-height: 1.3;
@@ -200,7 +204,6 @@
       .news-content {
 
         h3 {
-          font-weight: normal;
           line-height: 1.3;
           margin: 0;
           color: $black;
@@ -226,7 +229,7 @@
 
         h2 {
           color: $white;
-          border-top: 0.3em solid $white;
+          border-top: 0.3em solid #07132d;
         }
 
         .n-videos {
@@ -265,7 +268,7 @@
         display: flex;
 
         h3 {
-          font-weight: normal;
+          // font-weight: normal;
           font-size: 1.9em;
           color: $black;
           margin: 0;
@@ -367,7 +370,7 @@
         color: $white;
         font-size: 2em;
         margin: 0 0 .3em 0;
-        border-top: 0.3em solid $white;
+        border-top: 0.3em solid #07132d;
     }
 
     .galerias {

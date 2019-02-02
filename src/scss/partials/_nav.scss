@@ -1,5 +1,6 @@
 nav.navigation {
   background: $primary1;
+  border-bottom: 2px solid #ddd;
 
   .nav-bar {
     display: flex;
@@ -64,7 +65,7 @@ nav.navigation {
 nav.mobil {
   // position: absolute;
   position: fixed;
-  background: #1374b9;
+  background: $kuarta;
   width: 300px;
   height: 100vh;
   display: none;

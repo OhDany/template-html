@@ -23,7 +23,7 @@
 			flex: 1 0 50%;
 
 			img {
-				width: 400px;
+				width: 350px;
 			}
 		}
 
@@ -31,9 +31,10 @@
 			flex: 1 0 10%;
 
 			p {
-				font-family: sans-serif;
+				font-family: 'Roboto', sans-serif;
+				font-weight: 900;
 				margin: 0;
-				color: $white;
+				color: #001534;
 			}
 		}
 	}
@@ -45,7 +46,7 @@
 
 		li {
 			list-style: none;
-			border-right: 2px solid $white;
+			border-right: 2px solid #001534;
 			padding: 0 2.2em;
 
 			&:last-child {
@@ -53,9 +54,10 @@
 			}
 
 			a {
-				font-family: sans-serif;
+				font-family: 'Roboto', sans-serif;
+				font-weight: 900;
 				text-decoration: none;
-				color: $white;
+				color: #001534;
 
 				&:hover {
 					text-decoration: underline;
@@ -67,10 +69,11 @@
 .right {
 	
 	p {
-		font-family: sans-serif;
+		font-family: 'Roboto', sans-serif;
+		font-weight: 900;
 		text-align: center;
 		margin: 0;
-		color: $white;
+		color: #001534;
 	}
 }
 
